@@ -380,7 +380,7 @@ if __name__ == "__main__":
   parser = argparse.ArgumentParser(prog='setRank_TREC.py', description='Run setRank algorithm on TREC-BIO dataset.')
   parser.add_argument('-query', required=False, default='../../data/TREC_BIO/trec_query.json',
                       help='File name of test queries.')
-  parser.add_argument('-output', required=False, default="../results/trec/setrank.run",
+  parser.add_argument('-output', required=False, default="../../results/trec/setrank.run",
                       help='File name of output results.')
   parser.add_argument('-kb', required=False, default="../../data/TREC_BIO/trec_entity_type.tsv")
   parser.add_argument('-params', required=False, default="title:20.0,abstract:5.0,"
