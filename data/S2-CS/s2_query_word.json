@@ -1,0 +1,60 @@
+{"qid": "1", "ana": {"/m/0h1fn8h": 1}, "query": "deep learning"}
+{"qid": "2", "ana": {"/m/0280z8": 1}, "query": "artificial intelligence"}
+{"qid": "3", "ana": {"/m/03y9s": 1}, "query": "information retrieval"}
+{"qid": "4", "ana": {"/m/01hyh_": 1}, "query": "machine learning"}
+{"qid": "5", "ana": {"/m/01_bbm": 1}, "query": "question answering"}
+{"qid": "6", "ana": {"/m/0h93x": 1}, "query": "noun phrases"}
+{"qid": "7", "ana": {"/m/017b3j": 1}, "query": "penn treebank"}
+{"qid": "8", "ana": {"/m/049w3z8": 1}, "query": "speech recognition"}
+{"qid": "9", "ana": {"/m/01hyh_": 1}, "query": "data mining"}
+{"qid": "10", "ana": {"/m/01xzx": 1}, "query": "computer vision"}
+{"qid": "11", "ana": {"/m/0hjlw": 1}, "query": "reinforcement learning"}
+{"qid": "12", "ana": {"/m/059nn": 1}, "query": "natural language"}
+{"qid": "13", "ana": {"/m/0grsv6": 1}, "query": "autoencoder"}
+{"qid": "14", "ana": {"/m/0_lm0yb": 1}, "query": "ontology"}
+{"qid": "15", "ana": {"/m/0g57xn": 1}, "query": "sentiment analysis"}
+{"qid": "16", "ana": {"/m/01pf4l": 1}, "query": "sap"}
+{"qid": "17", "ana": {"/m/02qmzyq": 1}, "query": "lstm"}
+{"qid": "18", "ana": {"/m/05flf": 1}, "query": "natural language processing"}
+{"qid": "19", "ana": {"/m/076k0": 1}, "query": "semantic web"}
+{"qid": "20", "ana": {"/m/0gyvy46": 1}, "query": "mooc"}
+{"qid": "21", "ana": {"/m/03j0x": 1}, "query": "human computer interaction"}
+{"qid": "23", "ana": {"/m/07pr575": 1}, "query": "semantic relations"}
+{"qid": "25", "ana": {"/m/0bs2j8q": 1}, "query": "big data"}
+{"qid": "27", "ana": {"/m/03x_t5q": 1}, "query": "object detection"}
+{"qid": "28", "ana": {}, "query": "gfdm"}
+{"qid": "29", "ana": {"/m/05dhw": 1}, "query": "neural network"}
+{"qid": "31", "ana": {"/m/02gd8g": 1}, "query": "information geometry"}
+{"qid": "33", "ana": {"/m/0jt3_q3": 1}, "query": "data science"}
+{"qid": "35", "ana": {"/m/0lqtr": 1}, "query": "augmented reality"}
+{"qid": "37", "ana": {"/m/02ttd9": 1}, "query": "recommender system"}
+{"qid": "39", "ana": {"/m/0b6vrv": 1}, "query": "transfer learning"}
+{"qid": "40", "ana": {"/m/0gsgr": 1}, "query": "cnn"}
+{"qid": "42", "ana": {"/m/04gk4ls": 1}, "query": "natural language interface"}
+{"qid": "43", "ana": {"/m/0mkz": 1}, "query": "genetic algorithm"}
+{"qid": "44", "ana": {"/m/05sfxb": 1}, "query": "prolog"}
+{"qid": "47", "ana": {"/m/01hyh_": 1}, "query": "nsdi machine learning"}
+{"qid": "50", "ana": {"/m/06kwlsy": 1}, "query": "information theory"}
+{"qid": "51", "ana": {"/m/025rqlz": 2}, "query": "morphology morphological"}
+{"qid": "52", "ana": {"/m/01r_h": 1}, "query": "category theory"}
+{"qid": "53", "ana": {"/m/0cgts80": 1}, "query": "graph theory"}
+{"qid": "54", "ana": {"/m/0100p8rh": 1}, "query": "smart thermostat"}
+{"qid": "60", "ana": {"/m/01j4bc": 1}, "query": "mobile payment"}
+{"qid": "64", "ana": {"/m/01lm9y": 1}, "query": "chinese dialect"}
+{"qid": "69", "ana": {"/m/010gpp": 1}, "query": "memory hierarchy"}
+{"qid": "70", "ana": {"/m/0pqwt": 1}, "query": "hashing"}
+{"qid": "72", "ana": {"/m/0jwvf5b": 1}, "query": "knowledge graph"}
+{"qid": "73", "ana": {"/m/083br0": 1}, "query": "social media"}
+{"qid": "75", "ana": {"/m/02q7z": 1}, "query": "cryptography"}
+{"qid": "79", "ana": {"/m/026_nb5": 1}, "query": "dirichlet process"}
+{"qid": "81", "ana": {"/m/01w3nx": 1}, "query": "graph drawing"}
+{"qid": "82", "ana": {"/m/0105ntqp": 1}, "query": "robust principal component analysis"}
+{"qid": "83", "ana": {"/m/08thrh": 1}, "query": "differential evolution"}
+{"qid": "84", "ana": {}, "query": "seq2seq"}
+{"qid": "86", "ana": {"/m/02v74t": 1}, "query": "duality"}
+{"qid": "87", "ana": {"/m/0k0r5h1": 1}, "query": "variable neighborhood search"}
+{"qid": "90", "ana": {}, "query": "fdir"}
+{"qid": "93", "ana": {"/m/02prgkk": 1}, "query": "go game"}
+{"qid": "94", "ana": {"/m/023pcn": 1}, "query": "personality trait"}
+{"qid": "97", "ana": {"/m/018y_6": 1}, "query": "inventory management"}
+{"qid": "98", "ana": {"/m/03yb8hb": 1}, "query": "clojure"}

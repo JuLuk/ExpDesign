@@ -37,12 +37,12 @@ def load_kb(args):
       for line in fin:
         line = line.strip().split("\t")
         if line:
-          if len(line) != 3:
+          if len(line) < 1 or len(line) > 3:
             print("ERROR:", line)
           else:
             mid = line[0].replace(".", "/")
             mid = "/"+mid
-            type = line[2]
+            type = line[2] if len(line) > 2 else "."
             eid2types[mid] = type
     return eid2types
 

@@ -339,7 +339,7 @@ def main(args):
 
       print("=== Running query: %s (id = %s) ===" % (query_string, query_id))
       if saved_result:
-        rankings = all_docno_rankings[query_id]
+        rankings = all_docno_rankings[int(query_id)-1]
       else:
         rankings = multiSetRank(query_string, query_entities_string, kb, params_set, DEBUG=False)
         all_docno_rankings[query_id] = rankings
@@ -400,7 +400,7 @@ def main(args):
   for ele in sorted(params2confidence, key = lambda x:-x[1])[0:10]:
     print("Confidence = %s, parameters = %s" % (ele[1], ele[0]))
 
-  if args.mode == "query": # save results only for query level aggregation
+  if args.agglevel == "query": # save results only for query level aggregation
     setRank_TREC.save_results(args, result_all)
     print("Finish saving results to path: %s" % args.output)
 

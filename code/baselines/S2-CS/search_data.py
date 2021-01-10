@@ -14,7 +14,7 @@ TYPE_NAME = None
 es = Elasticsearch()
 
 def load_query():
-  with open("../../../data/S2-CS/s2_query.json", "r") as fin:
+  with open("../../../data/S2-CS/s2_query_entity.json", "r") as fin:
     queries = []
     for line in fin:
       queryInfo = json.loads(line.strip())
