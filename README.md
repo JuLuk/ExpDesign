@@ -9,8 +9,11 @@ This repo includes all the benchmark datasets, source code, evaluation toolkit, 
 ### Code Fixes
 
 ```shell
-pip3 install -r requirements.txt
+pip3 install -r requirements.txt 
+OR
+pip install - requirements.txt
 ```
+The necessary packages listed in requirements.txt can further more being installed directly in the chosen editor.
 
 ```python
 #/code/SetRank/autoSetRank_TREC.py
@@ -29,12 +32,15 @@ pip3 install -r requirements.txt
 +   type = line[2] if len(line) > 2 else "."
 
 #/code/SetRank/setRank_TREC.py
+#Line 383
 -   parser.add_argument('-output', required=False, default="../results/trec/setrank.run",
 +   parser.add_argument('-output', required=False, default="../../results/trec/setrank.run",
 ```
 
 ```shell
-mklink /D TREC_BIO TREC-BIO
+mklink /D TREC-BIO TREC_BIO #for Windows
+OR
+ln -s TREC-BIO TREC_BIO #for Linux
 ```
 
 ### Elastic Search Setup
@@ -60,6 +66,8 @@ elasticsearch
 elasticsearch.bat
 elasticsearch.sh
 ```
+It might be necessary to install a shellcheck package in the chosen editor to start elasticsearch in the terminal. 
+Furthermore, executing the package requires to primarily install JDK or set JAVA_HOME in the Windows environment. 
 
 ### Datasets
 
@@ -73,6 +81,7 @@ https://drive.google.com/file/d/1J6O9vm4wok4sEpV-1mVMWiNZ0_XlK7Xf/view
 ```
 
 Download and extract the datasets and add the following datafiles to the correct folders:
+Unpacking the data folders requires a chosen unpacking programm to unzip the tar.gz files. For Windows, WinRar was used to unpack the data folders.
 
 ```
 #To /data/S2-CS/
@@ -112,7 +121,7 @@ python3 index_data_ESR.py
 ```
 
 It is necessary to generate an Index for each algorithm and dataset you want to use. Therefore you need to index the data five times (4x baselines, 1x SetRank) for each dataset, if you want to rerun the complete experiment. 
-
+Note that instead of "python3" writing "python" only might be sufficient, depending on how the editor version is saved in your local environment.
 ### Executing the scripts 
 
 Baselines
@@ -155,6 +164,8 @@ To run this script for word or entity, as mentioned in table 3, it is necessary 
 ```
 
 This works similar for setRank_TREC.py.
+
+Note that if the commands do not execute and produce the .run files as required, one can open the respective files in the editor and run them one by one, including the parameter setting within the configurator manually.
 
 ### Training the model
 
