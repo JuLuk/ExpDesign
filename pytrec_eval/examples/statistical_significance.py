@@ -17,7 +17,7 @@ def main():
     # A bit too strict, as it does not allow for parametrized measures,
     # but sufficient for the example.
     parser.add_argument('--measure',
-                        choices=pytrec_eval.supported_measures,
+                        #choices=pytrec_eval.supported_measures,
                         required=True)
 
     args = parser.parse_args()
@@ -38,6 +38,7 @@ def main():
         qrel, {args.measure})
 
     first_results = evaluator.evaluate(first_run)
+    print(first_results.keys())
     second_results = evaluator.evaluate(second_run)
 
     query_ids = list(
